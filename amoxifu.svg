@@ -1,0 +1,51 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .title {
+            font: bold 24px sans-serif;
+            fill: #333;
+        }
+        .text {
+            font: 16px sans-serif;
+            fill: #fff;
+        }
+        .background {
+            fill: #fffacd;
+        }
+        .circle1 {
+            fill: #ff9999;
+        }
+        .circle2 {
+            fill: #99cc99;
+        }
+        .circle3 {
+            fill: #9999ff;
+        }
+    </style>
+    <rect class="background" width="100%" height="100%"/>
+    <text x="50%" y="50" class="title" text-anchor="middle">阿西莫夫機器人三定律</text>
+    <circle cx="150" cy="250" r="100" class="circle1"/>
+    <foreignObject x="100" y="200" width="100" height="100">
+        <div xmlns="http://www.w3.org/1999/xhtml" class="text" style="text-align: center;">
+            1. 機器人不得傷害人類，或因不作為使人類受到傷害。
+        </div>
+    </foreignObject>
+    <circle cx="300" cy="250" r="100" class="circle2"/>
+    <foreignObject x="250" y="200" width="100" height="100">
+        <div xmlns="http://www.w3.org/1999/xhtml" class="text" style="text-align: center;">
+            2. 機器人必須服從人類的命令，除非該命令與第一定律衝突。
+        </div>
+    </foreignObject>
+    <circle cx="450" cy="250" r="100" class="circle3"/>
+    <foreignObject x="400" y="200" width="100" height="100">
+        <div xmlns="http://www.w3.org/1999/xhtml" class="text" style="text-align: center;">
+            3. 機器人必須保護自己，前提是不違背第一或第二定律。
+        </div>
+    </foreignObject>
+    <!-- 簡筆畫機器人 -->
+    <circle cx="300" cy="100" r="30" fill="none" stroke="#333" stroke-width="3"/>
+    <rect x="285" y="130" width="30" height="50" fill="none" stroke="#333" stroke-width="3"/>
+    <line x1="285" y1="180" x2="270" y2="220" stroke="#333" stroke-width="3"/>
+    <line x1="315" y1="180" x2="330" y2="220" stroke="#333" stroke-width="3"/>
+    <line x1="285" y1="130" x2="270" y2="100" stroke="#333" stroke-width="3"/>
+    <line x1="315" y1="130" x2="330" y2="100" stroke="#333" stroke-width="3"/>
+</svg>
